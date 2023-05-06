@@ -1,0 +1,19 @@
+<ehcache>
+    <defaultCache
+        maxElementsInMemory="10000"
+        eternal="false"
+        timeToIdleSeconds="1200"
+        timeToLiveSeconds="1200"
+        diskExpiryThreadIntervalSeconds="1200"
+        memoryStoreEvictionPolicy="LRU"
+        />
+
+    <cache name="product"
+           maxElementsInMemory="10000"
+           eternal="false"
+           timeToIdleSeconds="10"
+           timeToLiveSeconds="10"
+           diskExpiryThreadIntervalSeconds="10"
+           memoryStoreEvictionPolicy="LRU"
+    />
+</ehcache>
